@@ -1,0 +1,73 @@
+#airplane-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(70, 187, 255);
+  font-family: "Kalam", cursive;
+}
+
+.airplane {
+  display: inline;
+  font-size: 3rem;
+  color: white;
+  z-index: 1;
+  text-shadow: 0 8px 5px rgb(0, 132, 255);
+}
+
+#airplane-sub {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cloud {
+  color: white;
+  font-size: 1.5rem;
+  z-index: 0;
+  position: absolute;
+}
+
+.cloud:nth-child(1) {
+  top: 10%;
+  animation: cloud-ani 3s linear infinite;
+}
+
+.cloud:nth-child(2) {
+  top: 20%;
+  animation: cloud-ani 3.5s linear infinite;
+}
+
+.cloud:nth-child(3) {
+  top: 30%;
+  animation: cloud-ani 2.2s linear infinite;
+}
+
+.cloud:nth-child(4) {
+  top: 40%;
+  animation: cloud-ani 3.4s linear infinite;
+}
+
+.cloud:nth-child(5) {
+  top: 60%;
+  animation: cloud-ani 3.2s linear infinite;
+}
+
+.cloud:nth-child(6) {
+  top: 70%;
+  animation: cloud-ani 2.7s linear infinite;
+}
+
+.cloud:nth-child(7) {
+  top: 80%;
+  animation: cloud-ani 3.2s linear infinite;
+}
+
+.cloud:nth-child(8) {
+  top: 90%;
+  animation: cloud-ani 3.7s linear infinite;
+}
